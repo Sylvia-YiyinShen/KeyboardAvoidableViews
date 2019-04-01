@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22D9A98F2252096A0048543B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9A98E2252096A0048543B /* TableViewController.swift */; };
+		22D9A992225209FF0048543B /* KeyboardAvoidableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9A991225209FF0048543B /* KeyboardAvoidableTableView.swift */; };
+		22D9A99622520EE80048543B /* KeyboardAvoidableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9A99522520EE80048543B /* KeyboardAvoidableScrollView.swift */; };
+		22D9A99822520F610048543B /* KeyboardAvoidableCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9A99722520F610048543B /* KeyboardAvoidableCollectionView.swift */; };
 		D97841622251D3F700E2D338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97841612251D3F700E2D338 /* AppDelegate.swift */; };
 		D97841642251D3F700E2D338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97841632251D3F700E2D338 /* ViewController.swift */; };
 		D97841672251D3F700E2D338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97841652251D3F700E2D338 /* Main.storyboard */; };
 		D97841692251D3F700E2D338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97841682251D3F700E2D338 /* Assets.xcassets */; };
 		D978416C2251D3F700E2D338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D978416A2251D3F700E2D338 /* LaunchScreen.storyboard */; };
+		D97841772251D4EB00E2D338 /* KeyboardAvoidableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97841762251D4EB00E2D338 /* KeyboardAvoidableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22D9A98E2252096A0048543B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		22D9A991225209FF0048543B /* KeyboardAvoidableTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidableTableView.swift; sourceTree = "<group>"; };
+		22D9A99522520EE80048543B /* KeyboardAvoidableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidableScrollView.swift; sourceTree = "<group>"; };
+		22D9A99722520F610048543B /* KeyboardAvoidableCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidableCollectionView.swift; sourceTree = "<group>"; };
 		D978415E2251D3F700E2D338 /* KeyboardAvoidable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardAvoidable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97841612251D3F700E2D338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D97841632251D3F700E2D338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,7 @@
 		D97841682251D3F700E2D338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D978416B2251D3F700E2D338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D978416D2251D3F700E2D338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97841762251D4EB00E2D338 /* KeyboardAvoidableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D9A990225209CB0048543B /* KeyboardAvoidable */ = {
+			isa = PBXGroup;
+			children = (
+				D97841762251D4EB00E2D338 /* KeyboardAvoidableViewController.swift */,
+				22D9A991225209FF0048543B /* KeyboardAvoidableTableView.swift */,
+				22D9A99522520EE80048543B /* KeyboardAvoidableScrollView.swift */,
+				22D9A99722520F610048543B /* KeyboardAvoidableCollectionView.swift */,
+			);
+			path = KeyboardAvoidable;
+			sourceTree = "<group>";
+		};
+		22D9A99322520A0A0048543B /* ExampleViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D97841632251D3F700E2D338 /* ViewController.swift */,
+				22D9A98E2252096A0048543B /* TableViewController.swift */,
+			);
+			path = ExampleViewControllers;
+			sourceTree = "<group>";
+		};
 		D97841552251D3F700E2D338 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +84,9 @@
 		D97841602251D3F700E2D338 /* KeyboardAvoidable */ = {
 			isa = PBXGroup;
 			children = (
+				22D9A99322520A0A0048543B /* ExampleViewControllers */,
+				22D9A990225209CB0048543B /* KeyboardAvoidable */,
 				D97841612251D3F700E2D338 /* AppDelegate.swift */,
-				D97841632251D3F700E2D338 /* ViewController.swift */,
 				D97841652251D3F700E2D338 /* Main.storyboard */,
 				D97841682251D3F700E2D338 /* Assets.xcassets */,
 				D978416A2251D3F700E2D338 /* LaunchScreen.storyboard */,
@@ -135,8 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D9A99822520F610048543B /* KeyboardAvoidableCollectionView.swift in Sources */,
+				D97841772251D4EB00E2D338 /* KeyboardAvoidableViewController.swift in Sources */,
+				22D9A99622520EE80048543B /* KeyboardAvoidableScrollView.swift in Sources */,
 				D97841642251D3F700E2D338 /* ViewController.swift in Sources */,
 				D97841622251D3F700E2D338 /* AppDelegate.swift in Sources */,
+				22D9A992225209FF0048543B /* KeyboardAvoidableTableView.swift in Sources */,
+				22D9A98F2252096A0048543B /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
